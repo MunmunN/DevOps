@@ -1,0 +1,15 @@
+#!/bin/bash
+echo
+echo Please select one of the following options:
+echo
+echo 'a = Add a record'
+echo 'd = Delete a record'
+echo
+        read choice
+
+                case $choice in
+a)./car_addition;;
+d)./car_deletion;;
+*) echo Invalid choice - Bye.
+
+                esac

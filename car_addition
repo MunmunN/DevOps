@@ -1,0 +1,28 @@
+#!/bin/bash
+
+echo Please enter a car info:
+echo Please enter Serial number:
+read sn
+        
+	
+echo Please enter Make of the car?
+read  input
+
+       
+echo Please enter model of the car
+
+read  input1
+	
+echo Please enter year of the car
+
+read  input2
+
+        
+echo Please enter color of the car
+
+read  input3
+
+
+        
+echo $sn  $input  $input1 $input2 $input3 >> carlist
+

@@ -1,0 +1,13 @@
+#!/bin/bash
+
+echo Please enter Serial Number to delete the record:
+read  dr
+       # grep -q $host /home/iafzal/ps/database
+        if [ $dr != 0 ]
+        then
+        
+        sed -i '/'$dr'/d' carlist
+        echo $dr has been deleted
+        else
+        echo Record does not exist
+        fi
